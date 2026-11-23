@@ -1,0 +1,22 @@
+PROYECTO BOTICA - AVANCE 1
+
+1. Descomprimir y abrir la carpeta proyecto_botica en VS Code (o el editor que usen).
+2. Probar que todo funciona:  python prueba_conexion.py
+   Debe mostrar 5 usuarios y "Conexión correcta."
+3. Cada integrante trabaja SOLO en sus archivos, según la hoja "Avance 1 Requerimientos" del Excel:
+     Integrante 1 -> src/comun/   (y main_avance1.py, sql/, inicializar_bd.py)
+     Integrantes 2 y 3 -> src/mod1_login/
+     Integrantes 4 y 5 -> src/mod2_catalogo/
+4. Un archivo por clase, con el nombre en minúsculas y guiones bajos
+   (QuimicoFarmaceutico -> quimico_farmaceutico.py).
+5. No modificar src/comun/. Si necesitan algo ahí, pedírselo al Integrante 1.
+6. Los archivos de src/comun/ son PROVISIONALES: se reemplazarán por la versión final
+   con los mismos nombres, así que su código seguirá funcionando.
+7. Ejecutar siempre desde la carpeta proyecto_botica (ahí debe estar botica.db).
+
+Usuarios de prueba (usuario / contraseña):
+  aquispe  / botica123   químico farmacéutico
+  admin    / admin2026   administrador
+  cmendoza / farma456    químico farmacéutico
+  jpaucar  / clave789    INACTIVO (debe rechazarse)
+  rccama   / rosa2026    BLOQUEADO (lo desbloquea el administrador)
